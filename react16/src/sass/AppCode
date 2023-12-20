@@ -1,0 +1,20 @@
+import "./Sass/style.scss";
+
+const App = () => {
+  return (
+    <div className="App">
+      <h2>Register here</h2>
+      <form>
+        <input type="text" placeholder="Enter Your Name" />
+        <br />
+        <input type="mail" placeholder="Enter Your Mail" />
+        <br />
+        <input type="password" placeholder="Enter Your Password" />
+        <br />
+        <button>Submit</button>
+      </form>
+    </div>
+  );
+};
+
+export default App;

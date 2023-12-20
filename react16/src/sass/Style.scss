@@ -1,0 +1,61 @@
+$bgcolor: rgba(0, 0, 0, 0.8);
+$color: rgb(255, 255, 255);
+
+
+body{
+    margin: 0%;
+    padding: 0%;
+}
+@mixin inputstyle() {
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-bottom: 1px solid red;
+    background: transparent;
+    outline: none;
+    text-align: center;
+    color: white;
+    
+}
+
+
+
+.App {
+    background: url('https://cdn.pixabay.com/photo/2023/12/10/18/56/nuts-8442168_1280.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+
+    form {
+        background: $bgcolor;
+        color: $color;
+        text-align: center;
+        height: auto;
+        width: 300px;
+
+        input {
+            @include inputstyle()
+        }
+
+        
+
+        button {
+            background: orange;
+            padding: 10px;
+            width: 150px;
+            border: 1px solid orange;
+            margin: 10px;
+            &:hover{
+                background-color: black;
+                color: white;
+            }
+        }
+    }
+}

@@ -1,0 +1,21 @@
+import "./Less/style.Less"
+<Less />
+
+const App = () => {
+  return (
+    <div className="App">
+      <form>
+        <h2>Register here</h2>
+        <input type="text" placeholder="Enter Your Name" />
+        <br />
+        <input type="mail" placeholder="Enter Your Mail" />
+        <br />
+        <input type="password" placeholder="Enter Your Password" />
+        <br />
+        <button>Submit</button>
+      </form>
+    </div>
+  );
+};
+
+export default App;

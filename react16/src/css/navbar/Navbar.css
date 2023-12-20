@@ -1,0 +1,16 @@
+.Navbar{
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+.Navbar div{
+    padding: 18px;
+    
+}
+.Navbar div input{
+    background-color: black;
+    color: white;
+}
